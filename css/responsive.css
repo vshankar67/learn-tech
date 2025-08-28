@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  #courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .course, .course2, .course3 {
+    position: static;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    position: static;
+    padding: 20px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+  #courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+  }
+
+  .course, .course2, .course3 {
+    position: static;
+    width: 45%;
+    margin-bottom: 30px;
+  }
+
+  footer {
+    position: static;
+    padding: 30px;
+    text-align: center;
+  }
+}
